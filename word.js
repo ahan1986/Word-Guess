@@ -1,5 +1,8 @@
 var letter = require('./letter');
 
-function Word() {
-
+var Word= function(word) {
+    this.word = word.split('');
+    
 }
+
+module.exports = Word;

@@ -5,4 +5,6 @@ var pilesOfWord = ['chocolate', 'white chocolate', 'dark chocolate'];
 
 var randomWordSelector = Math.floor(Math.random()* pilesOfWord.length);
 
-console.log(pilesOfWord[randomWordSelector]);
+var wordToTransfer = pilesOfWord[randomWordSelector];
+
+var wordGussing = new word(wordToTransfer);

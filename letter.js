@@ -4,8 +4,8 @@ function Letter(lettersToGuess, guessed) {
     this.switchBlankWithLetter = function() {
 
     };
-    this.checking = function() {
-
+    this.checking = function(letter) {
+        
     };
 
 }
